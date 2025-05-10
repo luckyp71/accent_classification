@@ -1,4 +1,5 @@
 # Accent Classification
+This project aims to classify English accents - American, British, or Australian based on a video URL.
 
 # Introduction
 This is an simple accent classification project.<br/>
@@ -23,7 +24,7 @@ I assume you already have python install in your local and please do the followi
 - Open another terminal then navigate to gradio project
 - Enter this command: ``python ./main.py``
 - Access the gradio via browser in ``localhost:7860``
-![gradio](./assets/gradio.png.png)
+![gradio](./assets/gradio.png)
 
 # Notes
 There is still much room for improvement, especially regarding model performance.<br/>
