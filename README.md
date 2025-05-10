@@ -19,7 +19,7 @@ I assume you already have python installed in your local and please do the follo
 - Enter this command to install the dependencies: `pip install -r requirements.txt`
 - Run the API by navigate to the `api_accent_classification` folder
 - Enter this command: `python ./main.py`
-- You can check whether the API is running by accesing `localhost:8000/accent/classify` or test it via Postman (or other API client tools)
+- You can check whether the API is running by testing it via Postman or other API client tools `localhost:8000/accent/classify`
 ![api_test_postman](./assets/postman_test.png)
 - Open another terminal then navigate to gradio project
 - Enter this command: ``python ./main.py``
