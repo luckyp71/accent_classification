@@ -14,7 +14,7 @@ This project consist of three sub projects:<br/>
 
 I assume you already have Python installed on your local machine. Please follow the steps below to start the project:
 - Since the project scope requires extracting audio from video, we need to download ffmpeg from `https://www.gyan.dev/ffmpeg/builds/`
-- Setup the ffmpeg in you environment variable
+- Setup the ffmpeg in your environment variable
 - Open your terminal and navigate to the root project i.e. accent_classification folder
 - Enter this command to install the dependencies: `pip install -r requirements.txt`
 - Run the API by navigate to the `api_accent_classification` folder
