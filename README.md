@@ -2,7 +2,7 @@
 This project aims to classify English accents - American, British, or Australian based on a video URL.
 
 # Introduction
-This is an simple accent classification project.<br/>
+This is a simple accent classification project.<br/>
 The use case can be shown as the following:<br/>
 ![flow](./assets/accent_classification_use_case.png)
 
