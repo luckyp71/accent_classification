@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+api_accent_classification/.idea
+api_accent_classification/__pycache__
+gradio/.idea
+api_accent_classification/.ipynb_checkpoints
+api_accent_classification/ai_model
+model_accent_classification/results
+model_accent_classification/final_model
