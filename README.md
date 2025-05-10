@@ -16,7 +16,7 @@ I assume you already have python installed in your local and please do the follo
 - Since the project scope requires extracting audio from video, we need to download ffmpeg from `https://www.gyan.dev/ffmpeg/builds/`
 - Setup the ffmpeg in you environment variable
 - Open your terminal and navigate to the root project i.e. accent_classification folder
-- Enter this command: `pip install -r requirements.txt`
+- Enter this command to install the dependencies: `pip install -r requirements.txt`
 - Run the API by navigate to the `api_accent_classification` folder
 - Enter this command: `python ./main.py`
 - You can check whether the API is running by accesing `localhost:8000/accent/classify` or test it via Postman (or other API client tools)
