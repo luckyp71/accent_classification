@@ -12,7 +12,7 @@ This project consist of three sub projects:<br/>
 - **api_accent_classification**: Exposes the model as an API using FastAPI.
 - **gradio**: A Gradio frontend for easy interaction.
 
-I assume you already have python installed in your local and please do the following to start the project:
+I assume you already have Python installed on your local machine. Please follow the steps below to start the project:
 - Since the project scope requires extracting audio from video, we need to download ffmpeg from `https://www.gyan.dev/ffmpeg/builds/`
 - Setup the ffmpeg in you environment variable
 - Open your terminal and navigate to the root project i.e. accent_classification folder
