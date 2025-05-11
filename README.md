@@ -29,7 +29,7 @@ I assume you already have Python installed on your local machine. Please follow 
 # Notes
 There is still much room for improvement, especially regarding model performance.<br/>
 `Disclaimer`: Due to time constraints, hyperparameter optimization was not performed, and the dataset used may not be entirely accurate. I used the Common Voice Delta Segment 21.0 dataset from https://commonvoice.mozilla.org/en/datasets,
-which does not contain explicit accent labels. I randomly sampled and grouped data into folders (american, british, and australian) for model training purpose. <br/>
+which does not contain explicit accent labels. I randomly sampled and grouped data into folders (american, british, and australian) for model training purpose. <br/><br/>
 For better results, consider replacing the dataset under `model_accent_classification/data` and retraining the model with hyperparameter optimization.
 The model cannot be pushed to GitHub because its size exceeds GitHub’s file size limit. Therefore, I’ve uploaded the model to Hugging Face: https://huggingface.co/luckyp71/accent-classifier-model/tree/main <br/>
 There is no need to modify the API code, as it loads the model from Hugging Face directly.
