@@ -17,11 +17,11 @@ I assume you already have Python installed on your local machine. Please follow 
 - Setup the ffmpeg in your environment variable
 - Open your terminal and navigate to the root project i.e. accent_classification folder
 - Enter this command to install the dependencies: `pip install -r requirements.txt`
-- Run the API by navigate to the `api_accent_classification` folder
+- Run the API by navigating to the `api_accent_classification` folder
 - Enter this command: `python ./main.py`
 - You can check whether the API is running by testing it via Postman or other API client tools `localhost:8000/accent/classify`
 ![api_test_postman](./assets/postman_test.png)
-- Open another terminal then navigate to gradio project
+- Open another terminal then navigate to gradio folder
 - Enter this command: ``python ./main.py``
 - Access the gradio via browser in ``localhost:7860``
 ![gradio](./assets/gradio.png)
