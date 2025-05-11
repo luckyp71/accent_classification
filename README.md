@@ -13,7 +13,7 @@ This project consist of three sub projects:<br/>
 - **gradio**: A Gradio frontend for easy interaction.
 
 I assume you already have Python installed on your local machine. Please follow the steps below to start the project:
-- Since the project scope requires extracting audio from video, we need to download ffmpeg from `https://www.gyan.dev/ffmpeg/builds/`
+- Since the project scope requires extracting audio from video, we need to download ffmpeg from https://www.gyan.dev/ffmpeg/builds/
 - Setup the ffmpeg in your environment variable
 - Open your terminal and navigate to the root project i.e. accent_classification folder
 - Enter this command to install the dependencies: `pip install -r requirements.txt`
@@ -22,13 +22,13 @@ I assume you already have Python installed on your local machine. Please follow 
 - You can check whether the API is running by testing it via Postman or other API client tools `localhost:8000/accent/classify`
 ![api_test_postman](./assets/postman_test.png)
 - Open another terminal then navigate to gradio folder
-- Enter this command: ``python ./main.py``
-- Access the gradio via browser in ``localhost:7860``
+- Enter this command: `python ./main.py`
+- Access the gradio via browser in `localhost:7860`
 ![gradio](./assets/gradio.png)
 
 # Notes
 There is still much room for improvement, especially regarding model performance.<br/>
-`Disclaimer`: The dataset used is not entirely accurate. I used Common Voice Delta Segment 21.0 from `https://commonvoice.mozilla.org/en/datasets` <br/>
+`Disclaimer`: The dataset used is not entirely accurate. I used Common Voice Delta Segment 21.0 from https://commonvoice.mozilla.org/en/datasets <br/>
 which does not contain explicit accent labels. I randomly sampled and grouped data into folders (american, british, and australian) for model training purpose. <br/>
 For better results, consider changing the dataset under `model_accent_classification/data` and re-train the model.
 The model cannot be pushed to GitHub because its size exceeds GitHub’s file size limit. Therefore, I’ve uploaded the model to Hugging Face: https://huggingface.co/luckyp71/accent-classifier-model/tree/main <br/>
