@@ -8,8 +8,8 @@ The use case can be shown as the following:<br/>
 
 # Getting Started
 This project consist of three sub projects:<br/>
-- **model_accent_classification**: Builds a transformer-based model (Facebook Wav2Vec2) to classify accents (American, British, Australian).
-- **api_accent_classification**: Exposes the model as an API using FastAPI.
+- **model_accent_classification**: Builds a transformer-based model (Facebook Wav2Vec2) to classify accents (American, British, Australian)
+- **api_accent_classification**: Exposes the model as an API using FastAPI
 - **gradio**: A Gradio frontend for easy interaction.
 
 I assume you already have Python installed on your local machine. Please follow the steps below to start the project:
