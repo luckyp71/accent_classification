@@ -33,4 +33,4 @@ which does not contain explicit accent labels. I randomly sampled and grouped da
 For better results, consider replacing the dataset under `model_accent_classification/data` and retraining the model with hyperparameter optimization.
 The model cannot be pushed to GitHub because its size exceeds GitHub’s file size limit. Therefore, I’ve uploaded the model to Hugging Face: https://huggingface.co/luckyp71/accent-classifier-model/tree/main.
 There is no need to modify the API code, as it loads the model from Hugging Face directly.<br/>
-Please access this URL to test in Hugging Face's Space directly: https://huggingface.co/spaces/luckyp71/accent-classification
+Please access the following URL to test directly on Hugging Face Spaces: https://huggingface.co/spaces/luckyp71/accent-classification
