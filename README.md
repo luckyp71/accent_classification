@@ -32,4 +32,5 @@ There is still much room for improvement, especially regarding model performance
 which does not contain explicit accent labels. I randomly sampled and grouped data into folders (american, british, and australian) for model training purpose. <br/><br/>
 For better results, consider replacing the dataset under `model_accent_classification/data` and retraining the model with hyperparameter optimization.
 The model cannot be pushed to GitHub because its size exceeds GitHub’s file size limit. Therefore, I’ve uploaded the model to Hugging Face: https://huggingface.co/luckyp71/accent-classifier-model/tree/main.
-There is no need to modify the API code, as it loads the model from Hugging Face directly.
+There is no need to modify the API code, as it loads the model from Hugging Face directly.<br/>
+Please access this URL to test in Hugging Face's Space directly: https://huggingface.co/spaces/luckyp71/accent-classification
